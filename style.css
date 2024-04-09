@@ -1,0 +1,122 @@
+@font-face {
+    font-family: bignoodle;
+    src: url(fonts/big_noodle_titling.ttf);
+    
+}
+.headimage{
+    width: 100%;
+    
+}
+.header{
+    width: 100%;
+    height: 56px;
+    background: transparent;
+    position: fixed;
+    z-index: 1; 
+}
+.navbardiv{
+    width: 98%;
+    height: 75px;
+    background: transparent;
+    
+}
+.slider{
+    width: 100%;
+    height: 566px;
+    background: transparent;
+   
+ 
+    
+}
+.bestgames{
+    width: 100vw;
+    height: 248vh;
+    background: linear-gradient(grey, white , #cdd4cf);
+    
+}
+.slider-image{
+    width: 100vw;
+    height: 100vh;
+    
+    
+    color: white;
+    object-fit: cover;
+
+    
+    
+
+}
+.welcome-text{
+    width: 100vw;
+    height: 100vw;
+    background-color: transparent;
+    padding-top: 470px;
+    padding-left: 27px;
+}
+.lowcards{
+    background: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+.midcards{
+    background: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card:hover{
+    background: red!important;
+    transform: scale(1.1);
+    color: white;
+    border-color: white;
+    
+   
+}
+.card{
+    transition: transform .2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.card-img-top{
+    width:190px ;
+    height:236px ;
+}
+.highcards{
+    background: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.specs-low{
+    padding-bottom: 346px;
+    font-family: bignoodle;
+    color: white;
+    padding-right: 25px;
+}
+.card-body{
+    width: 190px;
+    height: 165px;
+}
+.form-container{
+    width: 100vw;
+    height: 100vh;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 45vw;
+    height: 80vh;
+    background: #c9c8c5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+    
+}
